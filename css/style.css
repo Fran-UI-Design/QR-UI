@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-body{
+main{
     background-color: var(--slate-300);
     
 }
@@ -30,7 +30,7 @@ body{
     background-color: var(--white);
     padding: 1rem;
     border-radius: 1rem;
-    width: 260px;
+    width: 325px;
     box-shadow: 0px 15px 15px hsla(217, 45%, 22%, 0.03);
 }
 
@@ -48,6 +48,7 @@ body{
     font-style: normal;
     text-align: center;
     margin: 1rem 0;
+    color: var(--slate-500);
 }
 
 .qr-card-title{
@@ -56,12 +57,13 @@ body{
     font-weight: 700;
     font-style: normal;
     text-align: center;
+    font-size: 25px;
 
 }
 /*DISPLAY MOBILE*/
 @media (max-width: 1250px){
     .qr-card{
         width: 100%;
-        max-width: 260px;
+        max-width: 325px;
     }
 }
